@@ -1,0 +1,68 @@
+main {
+    background-color: #E53935;
+    height: 100vh;
+}
+
+.sidnavcard {
+   margin-top: -7px !important;
+   margin-bottom: 0px;
+}
+
+.solid :hover {
+   border-left: 3px solid;
+}
+
+.solid a :hover {
+    border-left: none;
+}
+
+.active {
+   border-left: 3px solid; 
+   margin-top: -6px;
+}
+
+a.brand-logo {
+    font-size: 1.3rem;
+}
+
+.container .row {
+    margin-left: 0rem;
+}
+
+.quote {
+    color: white;
+    font-family: Trajan;
+}
+
+.intro {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.intro2 {
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.about {
+    color: #E53935;
+}
+
+.close {
+    color: white;
+}
+
+@media only screen and (min-width: 993px) {
+    .container {
+        padding-left: 300px;
+        margin: 0 3%;
+    }
+    .intro {
+        margin-top: 40px;
+    }
+    .about2 {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 24px;
+        color: #E53935;
+    }
+}
