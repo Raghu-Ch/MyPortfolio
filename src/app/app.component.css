@@ -1,3 +1,6 @@
+html, body{
+    height:100vh;
+}
 main {
     background-color: #E53935;
     height: 100vh;
@@ -51,6 +54,23 @@ a.brand-logo {
 .close {
     color: white;
 }
+
+.banner {
+    border-left: 3px solid red;
+    font-family: Lucida Console, Monaco, monospace;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.announc {
+    margin-left: 16px;
+}
+
+.about2 {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+        color: #5d4037;
+    }
 
 @media only screen and (min-width: 993px) {
     .container {
